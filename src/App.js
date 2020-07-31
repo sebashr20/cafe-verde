@@ -1,10 +1,15 @@
 import React from "react";
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+import Routes from "Routes";
+
+const history = createBrowserHistory();
 
 const App = () => {
   return (
-    <div>
-      <h1 className="bg-red-500">MI CAFÉ VERDE</h1>
-    </div>
+    <Router history={history}>
+      <Routes />
+    </Router>
   );
 };
 
