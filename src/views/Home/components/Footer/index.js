@@ -3,7 +3,7 @@ import React from "react";
 export default () => {
   return (
     <div className="py-10 bg-blue-400">
-      <div className="container mx-auto h-full flex px-6">
+      <div className="mx-auto h-full flex px-4 lg:px-16">
         <div className="w-1/2 flex">
           <p className="mx-2">Contact</p>
           <p className="mx-2">Terms</p>

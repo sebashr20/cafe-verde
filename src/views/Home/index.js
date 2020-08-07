@@ -7,11 +7,13 @@ import {
   Description,
   Footer,
   MoreDescription,
+  Navbar,
 } from "./components";
 
 export default () => {
   return (
     <Fragment>
+      <Navbar />
       <Header />
       <Description />
       <MoreDescription />
