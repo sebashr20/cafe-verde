@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default () => {
   return (
@@ -7,9 +8,15 @@ export default () => {
         <p className="mx-2">LOGO</p>
       </div>
       <div className="w-1/2 flex justify-end">
-        <p className="mx-2">Products</p>
-        <p className="mx-2">Contact</p>
-        <p className="mx-2">Cart</p>
+        <Link to="/#" className="mx-2">
+          Products
+        </Link>
+        <Link to="/login" className="mx-2">
+          Login
+        </Link>
+        <Link to="/signup" className="mx-2">
+          Signup
+        </Link>
       </div>
     </div>
   );
