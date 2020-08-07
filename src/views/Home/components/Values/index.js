@@ -4,12 +4,12 @@ const cards = [1, 2, 3];
 
 export default () => {
   return (
-    <div className="py-20">
+    <div className="py-20 bg-green-400">
       <h1 className="font-bold text-6xl text-center">Beneficios</h1>
       <div className="container mx-auto h-full lg:flex px-6 lg:justify-between">
         {cards.map((card) => (
           <div
-            className="w-ful lg:max-w-xs xl:max-w-sm rounded border mb-4 lg:mb-0"
+            className="w-full lg:max-w-xs xl:max-w-sm rounded border mb-4 lg:mb-0"
             key={card}
           >
             {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
